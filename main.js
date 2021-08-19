@@ -1,4 +1,5 @@
 text = "";
+word = [];
 
 a = "q";
 b = "g";
@@ -29,140 +30,140 @@ z = "a";
 
 function execute(){
     text = document.getElementById("input").value;
-    word = text;
     for(i = 0; i < text.length; i++) {
         check=text.charAt(i);
 
         if(check == "a"){
-            word.replace("a", a);
+            word[i]=a;
             //document.getElementById("output1").innerHTML = word[i] + a;
         }
 
         if(check == "b"){
-            word.replace("b", b);
+            word[i]=b;;
             //document.getElementById("output1").innerHTML = word[i] + a;
         }
 
         if(check == "c"){
-            word.replace("c", c);
+            word[i]=c;
             //document.getElementById("output1").innerHTML = word[i] + a;
         }
 
         if(check == "d"){
-            word.replace("d", d);
+            word[i]=d;
             //document.getElementById("output1").innerHTML = word[i] + a;
         }
 
         if(check == "e"){
-            word.replace("e", e);
+            word[i]=e;
             //document.getElementById("output1").innerHTML = word[i] + a;
         }
 
         if(check == "f"){
-            word.replace("f", f);
+            word[i]=f;
             //document.getElementById("output1").innerHTML = word[i] + a;
         }
 
         if(check == "g"){
-            word.replace("g", g);
+            word[i]=g;
             //document.getElementById("output1").innerHTML = word[i] + a;
         }
 
         if(check == "h"){
-            word.replace("h", h);
+            word[i]=h;
             //document.getElementById("output1").innerHTML = word[i] + a;
         }
 
         if(check == "i"){
-            word.replace("i", i);
+            word[i]=i;
             //document.getElementById("output1").innerHTML = word[i] + a;
         }
 
         if(check == "j"){
-            word.replace("j", j);
+            word[i]=j;
             //document.getElementById("output1").innerHTML = word[i] + a;
         }
 
         if(check == "k"){
-            word.replace("k", k);
+            word[i]=k;
             //document.getElementById("output1").innerHTML = word[i] + a;
         }
         
         if(check == "l"){
-            word.replace("l", l);
+            word[i]=l;
             //document.getElementById("output1").innerHTML = word[i] + a;
         }
 
         if(check == "m"){
-            word.replace("m", m);
+            word[i]=m;
             //document.getElementById("output1").innerHTML = word[i] + a;
         }
 
         if(check == "n"){
-            word.replace("n", n);
+            word[i]=n;
             //document.getElementById("output1").innerHTML = word[i] + a;
         }
 
         if(check == "o"){
-            word.replace("o", o);
+            word[i]=o;
             //document.getElementById("output1").innerHTML = word[i] + a;
         }
 
         if(check == "p"){
-            word.replace("p", p);
+            word[i]=p;
             //document.getElementById("output1").innerHTML = word[i] + a;
         }
 
         if(check == "q"){
-            word.replace("q", q);
+            word[i]=q;
             //document.getElementById("output1").innerHTML = word[i] + a;
         }
 
         if(check == "r"){
-            word.replace("r", r);
+            word[i]=r;
             //document.getElementById("output1").innerHTML = word[i] + a;
         }
 
         if(check == "s"){
-            word.replace("s", s);
+            word[i]=s;
             //document.getElementById("output1").innerHTML = word[i] + a;
         }
 
         if(check == "t"){
-            word.replace("t", t);
+            word[i]=t;
             //document.getElementById("output1").innerHTML = word[i] + a;
         }
 
         if(check == "u"){
-            word.replace("u", u);
+            word[i]=u;
             //document.getElementById("output1").innerHTML = word[i] + a;
         }
 
         if(check == "v"){
-            word.replace("v", v);
+            word[i]=v;
             //document.getElementById("output1").innerHTML = word[i] + a;
         }
 
         if(check == "w"){
-            word.replace("w", w);
+            word[i]=w;
             //document.getElementById("output1").innerHTML = word[i] + a;
         }
 
         if(check == "x"){
-            word.replace("x", x);
+            word[i]=x;
             //document.getElementById("output1").innerHTML = word[i] + a;
         }
 
         if(check == "y"){
-            word.replace("y", y);
+            word[i]=y;
             //document.getElementById("output1").innerHTML = word[i] + a;
         }
 
         if(check == "z"){
-            word.replace("z", z);
+            word[i]=z;
             //document.getElementById("output1").innerHTML = word[i] + a;
         }
-        document.getElementById("output1").innerHTML=word;
+        rohan=word.join("");
     }
-
+    document.getElementById("output1").innerHTML=rohan;
+    word ="";
 }
